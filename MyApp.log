@@ -1,0 +1,58 @@
+2022-07-13 12:12:45.254  INFO 3624 --- [restartedMain] c.e.A.AdminPanelApplication              : Starting AdminPanelApplication using Java 1.8.0_202 on LAPTOP-4FMDGPN6 with PID 3624 (D:\first small project\AdminPanel\target\classes started by vatsal in D:\first small project\AdminPanel)
+2022-07-13 12:12:45.254  INFO 3624 --- [restartedMain] c.e.A.AdminPanelApplication              : No active profile set, falling back to default profiles: default
+2022-07-13 12:12:45.332  INFO 3624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 12:12:45.332  INFO 3624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 12:12:46.226  INFO 3624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 12:12:46.318  INFO 3624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+2022-07-13 12:12:47.212  INFO 3624 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2022-07-13 12:12:47.227  INFO 3624 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-07-13 12:12:47.227  INFO 3624 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-13 12:12:47.306  INFO 3624 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-07-13 12:12:47.306  INFO 3624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1974 ms
+2022-07-13 12:12:47.588  INFO 3624 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-13 12:12:47.635  INFO 3624 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-07-13 12:12:47.792  INFO 3624 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-13 12:12:47.918  INFO 3624 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-07-13 12:12:48.359  INFO 3624 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-07-13 12:12:48.373  INFO 3624 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-13 12:12:48.906  INFO 3624 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 12:12:48.921  INFO 3624 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 12:12:49.561  WARN 3624 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 12:12:49.817  INFO 3624 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [com.example.AdminPanel.config.CustomCorsFilter@6e27042e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3befdb03, org.springframework.security.web.context.SecurityContextPersistenceFilter@6584509e, org.springframework.security.web.header.HeaderWriterFilter@54f1af6d, org.springframework.security.web.authentication.logout.LogoutFilter@1e20551, com.example.AdminPanel.config.JwtRequestFilter@2333f28b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e3b0a65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@976ec2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bcc711d, org.springframework.security.web.session.SessionManagementFilter@4e3a72e4, org.springframework.security.web.access.ExceptionTranslationFilter@515c8620, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c97166d]
+2022-07-13 12:12:50.062  WARN 3624 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-13 12:12:50.256  INFO 3624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-13 12:12:50.262  INFO 3624 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-13 12:12:50.303  INFO 3624 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-13 12:12:50.319  INFO 3624 --- [restartedMain] c.e.A.AdminPanelApplication              : Started AdminPanelApplication in 5.449 seconds (JVM running for 6.273)
+2022-07-13 12:13:19.113  INFO 3624 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 12:13:19.113  INFO 3624 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-07-13 12:13:19.126  INFO 3624 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2022-07-13 12:13:22.327  INFO 12732 --- [restartedMain] c.e.A.AdminPanelApplication              : Starting AdminPanelApplication using Java 1.8.0_202 on LAPTOP-4FMDGPN6 with PID 12732 (D:\first small project\AdminPanel\target\classes started by vatsal in D:\first small project\AdminPanel)
+2022-07-13 12:13:22.358  INFO 12732 --- [restartedMain] c.e.A.AdminPanelApplication              : No active profile set, falling back to default profiles: default
+2022-07-13 12:13:22.405  INFO 12732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 12:13:22.405  INFO 12732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 12:13:23.268  INFO 12732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 12:13:23.331  INFO 12732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2022-07-13 12:13:24.115  INFO 12732 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2022-07-13 12:13:24.122  INFO 12732 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-07-13 12:13:24.122  INFO 12732 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-13 12:13:24.209  INFO 12732 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-07-13 12:13:24.209  INFO 12732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1804 ms
+2022-07-13 12:13:24.475  INFO 12732 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-13 12:13:24.538  INFO 12732 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-07-13 12:13:24.723  INFO 12732 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-13 12:13:24.823  INFO 12732 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-07-13 12:13:25.196  INFO 12732 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-07-13 12:13:25.224  INFO 12732 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-13 12:13:25.761  INFO 12732 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 12:13:25.777  INFO 12732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 12:13:26.426  WARN 12732 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 12:13:26.655  INFO 12732 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [com.example.AdminPanel.config.CustomCorsFilter@1dd3944d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@376b5f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2710b8b6, org.springframework.security.web.header.HeaderWriterFilter@1f6324ba, org.springframework.security.web.authentication.logout.LogoutFilter@2ff2d66a, com.example.AdminPanel.config.JwtRequestFilter@cbf7b22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e712d7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c7e156a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21267731, org.springframework.security.web.session.SessionManagementFilter@7f93bece, org.springframework.security.web.access.ExceptionTranslationFilter@30cf10f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5628872d]
+2022-07-13 12:13:26.906  WARN 12732 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-13 12:13:27.078  INFO 12732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-13 12:13:27.078  INFO 12732 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-13 12:13:27.125  INFO 12732 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-13 12:13:27.141  INFO 12732 --- [restartedMain] c.e.A.AdminPanelApplication              : Started AdminPanelApplication in 5.395 seconds (JVM running for 6.201)
+2022-07-13 13:03:20.479  INFO 12732 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 13:03:20.555  INFO 12732 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-07-13 13:03:20.576  INFO 12732 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
